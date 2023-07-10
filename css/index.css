@@ -51,7 +51,7 @@ a {
 
 /* 单独设置cstimer位置 */
 .cstimer {
-	margin-bottom: -5px;
+	padding-top: 5px;
 
 }
 
