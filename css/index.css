@@ -1,0 +1,64 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../src/img/index.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	overflow: hidden;
+}
+
+/* a标签样式 */
+a {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 80px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+/* 导航栏 */
+.daohang {
+	display: flex;
+	width: 570px;
+	height: 80px;
+	justify-content: space-between;
+	margin: 50px auto;
+	background-color: rgba(41, 37, 37, 0.4);
+	box-shadow: 0 0 20px 15px #242121;
+	border-radius: 40px;
+	padding: auto;
+	padding-top: 10px;
+	/* 超出隐藏 */
+	overflow: hidden;
+}
+
+/* 导航栏：鼠标经过图片放大 */
+.daohang a:hover {
+	transform: scale(1.4);
+}
+
+
+/* 单独设置csdn位置 */
+.csdn {
+	margin-top: -5px;
+}
+
+/* 单独设置cstimer位置 */
+.cstimer {
+	margin-bottom: -5px;
+
+}
+
+/* 单独设置youdao位置 */
+.youdao {
+	margin-top: 6px;
+
+}
+
+

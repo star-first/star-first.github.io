@@ -1,0 +1,59 @@
+.search {
+  width: 700px;
+  margin: 100px auto;
+}
+form {
+  display: flex;
+  /* 宽高 */
+  width: 678px;
+  height: 70px;
+  /* 背景色、阴影、圆角 */
+  background-color: rgba(255,255,255,0.2);
+  box-shadow: 0 0 50px 10px #ffffff;
+  border-radius: 40px;
+  /* 定位，不随放大缩小滚动 */
+  position: fixed;
+  padding: 10px;
+  padding-left: 50px;
+}
+
+.search-kuang {
+  width: 500px;
+  height: 50px;
+  border: none;
+  /* 背景色、阴影、圆角 */
+  background-color: rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0 0 10px 5px rgba(255,255,255,0.5); */
+  border-radius: 40px;
+  /* 控制文字 */
+  font-size: 18px;
+  color: rgb(109, 255, 211);
+  font-family: SimHei;
+  font-weight: 700;
+  text-indent: 1em;
+}
+
+.search-kuang:hover {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  transform: scale(1.05);
+}
+
+.search-btn {
+  width: 70px;
+  height: 50px;
+  /* 设置背景 */
+  background-image: url(../src/img/search.png);
+  background-repeat: no-repeat;
+  background-size: 50px;
+  /* 设置背景透明 */
+  background-color: rgba(255,255,255,0);
+  border: none;
+  /* 间距 */
+  margin-left: 20px;
+  overflow: hidden;
+  transition: transform 2s ease-out;
+}
+
+.search-btn:hover {
+  transform: rotateZ(360deg);
+}
